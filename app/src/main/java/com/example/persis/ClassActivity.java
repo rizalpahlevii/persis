@@ -26,7 +26,7 @@ import java.util.Collections;
 public class ClassActivity extends AppCompatActivity {
 
 
-    Button btnAdd;
+//    Button btnAdd;
     RecyclerView recyclerView;
     DatabaseHelper db;
     ArrayList<String> id,title;
@@ -53,14 +53,14 @@ public class ClassActivity extends AppCompatActivity {
 
 
 
-        btnAdd = (Button) findViewById(R.id.btnAdd);
-        btnAdd.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(ClassActivity.this,CreateClassActivity.class);
-                ClassActivity.this.startActivity(intent);
-            }
-        });
+//        btnAdd = (Button) findViewById(R.id.btnAdd);
+//        btnAdd.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(ClassActivity.this,CreateClassActivity.class);
+//                ClassActivity.this.startActivity(intent);
+//            }
+//        });
 
 
     }

@@ -26,16 +26,16 @@
             android:textColor="@color/black"
             android:layout_height="wrap_content"/>
 
-        <androidx.appcompat.widget.AppCompatButton
-            android:layout_width="wrap_content"
-            android:layout_height="45dp"
-            android:layout_marginTop="10dp"
-            android:background="@color/accent"
-            android:text="Tambah"
-            android:id="@+id/btnAdd"
-            android:textColor="#fff"
-            android:textStyle="bold"
-            android:textSize="15sp"/>
+<!--        <androidx.appcompat.widget.AppCompatButton-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="45dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:background="@color/accent"-->
+<!--            android:text="Tambah"-->
+<!--            android:id="@+id/btnAdd"-->
+<!--            android:textColor="#fff"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textSize="15sp"/>-->
 
 
         <androidx.recyclerview.widget.RecyclerView

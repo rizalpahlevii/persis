@@ -27,7 +27,7 @@ public class RuleActivity extends AppCompatActivity {
     DatabaseReference databaseReference;
     RuleAdapter ruleAdapter;
     ArrayList<Rule> rules;
-    Button btnAdd;
+//    Button btnAdd;
 
     private ArrayList<String> data;
     @Override
@@ -46,15 +46,15 @@ public class RuleActivity extends AppCompatActivity {
         ruleAdapter = new RuleAdapter(this,rules);
         recyclerView.setAdapter(ruleAdapter);
 
-        btnAdd = (Button) findViewById(R.id.btnAdd);
+//        btnAdd = (Button) findViewById(R.id.btnAdd);
 
-        btnAdd.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(RuleActivity.this,CreateRuleActivity.class);
-                RuleActivity.this.startActivity(intent);;
-            }
-        });
+//        btnAdd.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(RuleActivity.this,CreateRuleActivity.class);
+//                RuleActivity.this.startActivity(intent);;
+//            }
+//        });
 
         databaseReference.addValueEventListener(new ValueEventListener() {
             @Override

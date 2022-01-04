@@ -62,4 +62,8 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     public void delete(String id){
         db.delete(tableName, columnId + "=" + id, null);
     }
+
+    public void deleteAll(){
+        db.delete(tableName,null,null);
+    }
 }
