@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/halfWhite"
+    android:padding="10dp"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="25dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Fitur Persis"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"/>
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_marginTop="40dp"
+            android:drawableLeft="@drawable/ic_baseline_format_list_numbered_rtl_24"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Peraturan"
+            android:id="@+id/btnRule"
+            />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/ic_baseline_error_24"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Daftar Pelanggaran"
+            android:id="@+id/btnViolation"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/ic_baseline_format_list_numbered_rtl_24"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Daftar Kelas"
+            android:id="@+id/btnClass"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/ic_baseline_account_circle_24"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Profil"
+            android:id="@+id/btnProfile"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

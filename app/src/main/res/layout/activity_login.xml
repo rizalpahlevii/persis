@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/halfWhite"
+    android:gravity="center"
+    android:padding="10dp"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="100dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Login"
+            android:textStyle="bold"
+            android:textSize="40dp" />
+
+        <EditText
+            android:layout_marginTop="50dp"
+            android:layout_width="300dp"
+            android:id="@+id/name"
+            android:layout_height="45dp"
+            android:background="#ffffff"
+            android:drawableLeft="@drawable/ic_baseline_person_24"
+            android:hint="Nama Lengkap"
+            android:padding="5dp" />
+
+        <EditText
+            android:inputType="textPassword"
+            android:layout_width="300dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="45dp"
+            android:id="@+id/password"
+            android:background="#ffffff"
+            android:drawableLeft="@drawable/ic_baseline_lock_24"
+            android:hint="Kata Sandi"
+            android:padding="5dp" />
+        
+        
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="30dp"
+            android:background="@color/accent"
+            android:text="Login"
+            android:id="@+id/btnLogin"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
