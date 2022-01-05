@@ -64,6 +64,9 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     }
 
     public void deleteAll(){
+
         db.delete(tableName,null,null);
+        db.execSQL("UPDATE `sqlite_sequence` SET `seq` = 0 WHERE `name` = 'classes';");
+
     }
 }

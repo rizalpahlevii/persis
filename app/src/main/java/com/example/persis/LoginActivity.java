@@ -30,7 +30,7 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View view) {
                 String name = nameEditText.getText().toString();
                 String password = passwordEditText.getText().toString();
-                if(name.equals("Hanif Febri Nugroho") && password.equals("A11.2020.12694")){
+                if(name.equals("a") && password.equals("a")){
                     Toast.makeText(getApplicationContext(),"Login Berhasil",Toast.LENGTH_SHORT).show();
                     Intent intent = new Intent(LoginActivity.this,HomeActivity.class);
                     LoginActivity.this.startActivity(intent);
